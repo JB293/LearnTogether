@@ -35,7 +35,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun LearnTogetherImg(modifier: Modifier = Modifier) {
-    val image = painterResource(R.drawable.bg_compose_background)
     Column(
         modifier = modifier.verticalScroll(rememberScrollState())
     ) {
